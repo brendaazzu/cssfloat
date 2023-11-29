@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&display=swap');
+
+body {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.45), rgba(255, 255, 255, 0.65)),url('https://www.creativefabrica.com/wp-content/uploads/2023/05/08/Old-Vintage-Paper-Textured-background-Graphics-69137293-1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 100%; 
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box1, .box2, .box3 {
+    width: 30%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.header {
+    font-family: 'UnifrakturMaguntia', cursive;
+    font-size: 50px;
+    text-align: center; 
+    margin: 0px 0; 
+}
+
+
+.pheader {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+.h5one, .h5two {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 15px;
+    margin: 5px 0; 
+    width: 150px; 
+    height: 70px;
+    overflow: hidden;
+}
+
+.hr1, .hr2, .hr3, .hr4, .hr5, .hr6, .hr7, .hr8, .hr9 {
+    border-color: black;
+    margin: 5px 0; 
+}
+
+
+.title1, .title2, .title3 {
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    font-weight: bold;
+    font-size: 50px;
+    padding: 2.5px;
+}
+
+.title4 {
+    font-family: 'Georgia', serif;
+    font-weight: bold;
+    font-size: 50px;
+    padding: 2.5px;
+}
+
+.catimg {
+    float: left;
+    border: 5px solid black;
+    border-style: double;
+    box-sizing: border-box;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.dogimg {
+    float: right;
+    border: 5px solid black;
+    border-style: double;
+    box-sizing: border-box;
+    margin-top: 25px;
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.span1, .span2 {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.ptitle, .ptitle2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.first-paragraph, .second-paragraph, .third-paragraph {
+    padding: 15px;
+}
+
+footer {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+
+
